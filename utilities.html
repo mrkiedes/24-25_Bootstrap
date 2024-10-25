@@ -14,22 +14,94 @@
     </style>
 </head>
 <body>
-<div class="container">
+<div class="container bg-primary">
     <div class="container">
         <h2> Borders</h2>
         <p>Use the border classes to add or remove borders from an element:</p>
         <span class="border"></span>
-        <span class="border border-5"></span>
         <span class="border-top"></span>
         <span class="border-bottom"></span>
         <span class="border-start"></span>
         <span class="border-end"></span>
+    </div>
+
+    <div class="container">
+        <h2>Border Width</h2>
+        <p>Use .border-1 to .border-5 to change the width of the border:</p>
+        <span class="border border-1"></span>
+        <span class="border border-2"></span>
+        <span class="border border-3"></span>
+        <span class="border border-4"></span>
+        <span class="border border-5"></span>
+    </div>
+
+    <div class="container">
+        <h2>Border Colors</h2>
+        <p>Use a contextual border color to add a color to the border:</p>
+        <span class="border border-primary"></span>
+        <span class="border border-secondary"></span>
+        <span class="border border-success"></span>
+        <span class="border border-danger"></span>
+        <span class="border border-warning"></span>
+        <span class="border border-info"></span>
+        <span class="border border-light"></span>
+        <span class="border border-dark"></span>
+    </div>
+
+    <div class="container">
+        <h2>Rounded Borders</h2>
+        <p>Round the corner of an element with the rounded classes:</p>
+        <span class="rounded"></span>
+        <span class="rounded-top"></span>
+        <span class="rounded-end"></span>
+        <span class="rounded-bottom"></span>
+        <span class="rounded-start"></span>
+        <span class="rounded-circle"></span>
+        <span class="rounded-pill"></span>
+        <br />
+        <span class="rounded-0"></span>
+        <span class="rounded-1"></span>
+        <span class="rounded-2"></span>
+        <span class="rounded-3"></span>
+        <span class="rounded-4"></span>
+        <span class="rounded-5"></span>
+    </div>
+
+    <div class="container">
+        <h2>Responsive Floats</h2>
+        <p>Float an element to the left or to the right depending on screen width,
+            with the responsive float classes .float-*-left|right
+            (where * is sm, md, lg, xl or xxl).</p>
+        <p>Resize the browser to see the effect</p>
+        <div class="clearfix">
+            <div class="float-sm-end">Float right on small screens or wider</div><br>
+            <div class="float-md-end">Float right on medium screens or wider</div><br>
+            <div class="float-lg-end">Float right on large screens or wider</div><br>
+            <div class="float-xl-end">Float right on extra large screens or wider</div><br>
+            <div class="float-xxl-end">Float right on extra extra large screens or wider</div><br>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Width Utilities</h2>
+        <p>Set the width of an element w-* classes:</p>
+        <div class="w-25 bg-warning">Width 25%</div>
+        <div class="w-50 bg-warning">Width 50%</div>
+        <div class="w-75 bg-warning">Width 75%</div>
+        <div class="w-100 bg-warning">Width 100%</div>
+        <div class="w-auto bg-warning">Auto Width</div>
+        <div class="mw-100 bg-warning">Max Width 100%</div>
+
 
     </div>
 
-
-
 </div>
+
+<br />
+<br />
+<br />
+<br />
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
